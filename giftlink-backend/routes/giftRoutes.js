@@ -1,7 +1,8 @@
 /*jshint esversion: 8 */
 const connectToDatabase = require("../models/db");
-const router = express.Router();
 const express = require('express');
+const router = express.Router();
+
 
 router.get('/', async (req, res) => {
     try {
